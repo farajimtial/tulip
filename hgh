@@ -1,0 +1,24 @@
+def tulip_flower():
+    print("    🌷    ")
+    print("   🌷🌷   ")
+    print("  🌷🌷🌷  ")
+    print("   🌷🌷   ")
+    print("    🌷    ")
+    print("    ||    ")
+    print("    ||    ")
+    print("    ||    ")
+    print("   //\\   ")
+    print("  //  \\")
+
+# Add a cute message below the flower
+def message():
+    print("To my dearest love, here's a tulip as bright and beautiful as you. 🌷❤")
+
+# Combine the flower and the message
+def gift_for_you():
+    tulip_flower()
+    print("\n")
+    message()
+
+# Call the function to display your tulip flower
+gift_for_you()
